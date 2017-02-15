@@ -1,0 +1,121 @@
+body {
+    background-color: white;
+    background-image: url("Celeste_Wallaert.jpg");
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 4000px
+}
+
+article {
+	background-color: yellow;
+  opacity: 0.8;
+	justify-content: center;
+  text-align: justify;
+  font-weight: normal;
+	background-position: left;
+	padding:0.1px;
+	margin-left:445px;
+	margin-right: 450px;
+  width: 600px;
+}
+
+
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 500%;
+  margin-left:82px;
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  text-align: left;
+  margin-left:325px;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
+  text-align: left;
+  margin-left:445px;
+  margin-right: 380px;
+  text-align: justify;
+}
+
+p1{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+video {
+  margin-left:445px;
+  margin-right: 450px;
+  width: 600px;
+  display: block;
+}
+
+
+#color-1 {
+ background-color: #684819;
+}
+#color-2 {
+ background-color: #cd821d;
+}
+#color-3 {
+ background-color: #e6b220;
+}
+#color-4 {
+ background-color: #f8d931;
+}
+
+#colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content : center;
+  text-align : center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+#colors li {
+  height : 140px;
+  width : 140px;
+  border-radius: 6px;
+  color : #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #FFF;
+}
+
+ol {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+
+}
+
+ol li {
+  border : 2px solid #684819;
+  width : 160px;
+  margin : 6px;
+  margin-bottom: 1.3em;
+}
+
+
+li img {
+  width : 100%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  max-width : 100px;
+  margin : 0 auto;
+  padding : 5px;
+  padding-top: 5px;
+  margin-top: 5px;
+}
